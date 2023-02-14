@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@500&display=swap');
+
+body {
+    min-height: vh100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e6e8e6;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.title {
+    color: #080708;
+    font-size: 2rem;
+    margin: 1rem 1rem;
+    text-align: center;
+}
+
+.drawNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.drawNumbers div {
+    margin: 1rem 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5rem;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 5px gray;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.btnContainer {
+    width: 50%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    color: #080708;
+    height: 1.75rem;
+    width: 6rem;
+    margin: 0 0.75rem;
+}
+
+.foundNumber {
+    display: flex;
+}
+
+.foundNumber div {
+    margin-right: 0.5rem;
+}
+
+span {
+    padding-right: 0.5rem;
+    line-height: 1rem;
+}
